@@ -37,7 +37,7 @@ docker run -d -p 8080:8080 --name my-todoapp amylnikova/todoapp:1.0.0
 ```
 
 - `-d` runs the container in detached mode (in the background).  
-- `-p 8000:8000` maps port **8080** on your machine to port **8080** in the container.  
+- `-p 8080:8080` maps port **8080** on your machine to port **8080** in the container.  
 - `--name my-todoapp` assigns a custom name to the running container.  
 
 ---
